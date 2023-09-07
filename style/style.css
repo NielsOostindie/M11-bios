@@ -1,0 +1,60 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family:Lato-Bold;
+}
+
+header{
+    width: 100vw;
+    height: 161px;
+}
+
+a{
+    text-decoration: none;
+    color: black;
+    transition: all 200ms;
+    padding-right: 10%;
+}
+    
+a:hover {
+    font-size:20px;
+    font-size-adjust: 20px;
+}
+#navClick{
+    margin-top: 4.4%;
+    float: right;
+    width: 550px;
+}
+
+svg{
+    transform: scale(.8);
+    margin-top: 10px;
+    margin-left: 40px;
+}
+
+#selectTicket{
+    background-color: #9E2629;
+    width: 100%;
+    height: 91px;
+}
+
+#movie{
+    width: 262px;
+    height: 46px;
+    background-color: #C3575A;
+    color: white;
+    border: none;
+}
+
+button{
+    width: 158px;
+    height: 37px;
+    background-color: white;
+    color: #9E2629;
+    border: none;
+}
+
+button:active{
+    transition: all 20ms;
+    transform: scale(0.96);
+}
