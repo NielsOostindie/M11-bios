@@ -1,6 +1,6 @@
 
 
-.container {
+#container {
     display: grid;
     grid-template-columns: repeat(5, 1fr);
     grid-template-rows: repeat(6, 1fr);
@@ -11,29 +11,29 @@
     text-align: center;
 }
 
-.grid-item1 {
+#grid-item1 {
     grid-area: 1 / 1 / 2 / 6;
     width: 100%;
     background-color: white;
     color: #9E2629;
 }
 
-.grid-item2 {
+#grid-item2 {
     grid-area: 2 / 3 / 4 / 6;
     background-color: white;
     color: black;
 }
 
-.grid-item3 {
+#grid-item3 {
     grid-area: 2 / 1 / 4 / 3;
 }
 
-.grid-item4 {
+#grid-item4 {
     grid-area: 4 / 1 / 5 / 6;
     background-color: #9E2629;
 }
 
-.grid-item5 {
+#grid-item5 {
     grid-area: 5 / 1 / 7 / 6;
 }
 
