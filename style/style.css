@@ -1,4 +1,9 @@
+* {
+    font-family: lato;
+    font: bold;
+}
 
+body { background-color: black; }
 
 #container {
     display: grid;
@@ -9,9 +14,19 @@
     background-color: black;
     color: white;
     text-align: center;
+    width: 80%;
+    margin: 0 auto;
+}
+
+img {
+    height: auto;
+    width: 100%;
 }
 
 #grid-item1 {
+    font-size: 70px;
+    height: 137px;
+    width: auto;
     grid-area: 1 / 1 / 2 / 6;
     width: 100%;
     background-color: white;
@@ -29,8 +44,11 @@
 }
 
 #grid-item4 {
+    font-size: 40px;
     grid-area: 4 / 1 / 5 / 6;
     background-color: #9E2629;
+    height: 122px;
+    width: 100%;
 }
 
 #grid-item5 {
