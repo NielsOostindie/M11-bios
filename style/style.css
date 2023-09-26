@@ -1,60 +1,311 @@
-*{
-    margin: 0;
-    padding: 0;
-    font-family:Lato-Bold;
+* {
+  margin: 0;
+  padding: 0;
+  font-family: Lato;
 }
 
-header{
-    width: 100vw;
-    height: 161px;
+header {
+  width: 100vw;
+  height: 161px;
 }
 
-a{
-    text-decoration: none;
-    color: black;
-    transition: all 200ms;
-    padding-right: 10%;
+body {
+  overflow-x: hidden;
+  color: black;
 }
-    
+
+a {
+  text-decoration: none;
+  color: black;
+  transition: all 200ms;
+  padding-right: 10%;
+}
+
 a:hover {
-    font-size:20px;
-    font-size-adjust: 20px;
+  font-size: 20px;
+  font-size-adjust: 20px;
 }
-#navClick{
-    margin-top: 4.4%;
-    float: right;
-    width: 550px;
-}
-
-svg{
-    transform: scale(.8);
-    margin-top: 10px;
-    margin-left: 40px;
+#navClick {
+  margin-top: 2.4%;
+  float: right;
+  width: 550px;
 }
 
-#selectTicket{
-    background-color: #9E2629;
-    width: 100%;
-    height: 91px;
+svg {
+  transform: scale(0.8);
+  margin-top: 10px;
+  margin-left: 40px;
 }
 
-#movie{
-    width: 262px;
-    height: 46px;
-    background-color: #C3575A;
-    color: white;
-    border: none;
+#selectTicket {
+  background-color: #9e2629;
+  width: 100%;
+  height: 91px;
 }
 
-button{
-    width: 158px;
-    height: 37px;
-    background-color: white;
-    color: #9E2629;
-    border: none;
+#movie {
+  width: 262px;
+  height: 46px;
+  background-color: #c3575a;
+  color: white;
+  border: none;
 }
 
-button:active{
-    transition: all 20ms;
-    transform: scale(0.96);
+button {
+  width: 158px;
+  height: 37px;
+  background-color: white;
+  color: #9e2629;
+  border: none;
+}
+
+button:active {
+  transition: all 20ms;
+  transform: scale(0.96);
+}
+
+#homeText {
+  color: white;
+  background-color: #9e2629;
+  position: absolute;
+  margin-top: 5%;
+  margin-left: 10%;
+  width: 80%;
+  height: 334px;
+}
+
+#homeText h1 {
+  padding: 1% 2%;
+}
+
+#homeText p {
+  padding: 3% 2%;
+  width: 45%;
+}
+
+#container {
+  background-color: black;
+  margin-top: 48px;
+  height: auto;
+}
+
+#maps {
+  background-color: white;
+  width: 80%;
+  height: auto;
+  display: flex;
+  position: absolute;
+  margin-top: 23%;
+  margin-left: 10%;
+}
+
+#mapsFoto {
+  width: 45%;
+  height: 1%;
+  padding: 1%;
+  padding-bottom: 0%;
+}
+
+#mapsInfo {
+  background-color: #9e2629;
+  position: absolute;
+  width: 45%;
+  height: 320px;
+  margin-left: 1%;
+  margin-top: 20.5%;
+}
+
+#vesteging {
+  float: right;
+  width: 52%;
+  padding: 1%;
+  margin-left: -1%;
+}
+
+#grid-container {
+  display: grid;
+  grid-template-columns: 223px 223px 223px 223px 223px 223px;
+  padding: 180px;
+}
+.grid-item {
+  display: flex;
+  flex-direction: column;
+  background-color: white;
+  height: auto;
+  margin-left: 5%;
+  margin-bottom: 50%;
+  font-size: 30px;
+}
+
+.grid-item img {
+  width: 100%;
+  height: 302.82px;
+}
+
+.title {
+  font-weight: bold;
+  font-size: 17px;
+  padding-top: 8%;
+  height: 20px;
+  padding-left: 7%;
+  color: #666666;
+}
+
+.movieInfo {
+  padding-top: 3%;
+  font-size: 10px;
+  padding-left: 7%;
+  padding-bottom: 4%;
+  height: 100px;
+  color: #666666;
+}
+
+.release {
+  font-weight: 300;
+  font-size: 13px;
+  padding-left: 7%;
+  color: #666666;
+}
+
+.rating {
+  margin-top: 0px;
+  margin-left: 0%;
+}
+
+.ticketInfo {
+  color: white;
+  margin-left: 7%;
+  background-color: #9e2629;
+  margin-bottom: 10%;
+}
+
+#movielist {
+  width: 100%;
+  height: 200px;
+}
+
+#footer {
+  width: 100%;
+
+  height: 350px;
+
+  background-color: #666666;
+
+  display: flex;
+}
+
+.footer_div1 {
+  margin: 0 0 0 10%;
+
+  width: 40%;
+
+  height: 250px;
+}
+
+.footer_div2 {
+  width: 30%;
+
+  height: 250px;
+}
+
+.logo_footer {
+  width: 50%;
+
+  height: 90px;
+
+  margin: 20px 0 0 0%;
+
+  color: white;
+}
+
+.footer_tekstcontainer {
+  height: 120px;
+
+  width: 350px;
+
+  margin: 20px 0 0 0%;
+}
+
+.footer_tekst {
+  color: white;
+}
+
+.leestmeer {
+  height: 25px;
+
+  width: 110px;
+
+  margin: 15px 0 0 0%;
+
+  text-align: center;
+
+  padding-top: 6px;
+
+  background-color: white;
+
+  color: #666666;
+}
+
+.navigeer_tekst {
+  padding: 75px 0 25px 0;
+
+  color: white;
+}
+
+.list_item {
+  padding: 5px 0 0 0;
+
+  list-style-type: none;
+
+  color: white;
+}
+
+.volg_ons {
+  color: white;
+
+  padding: 75px 0 0 0;
+}
+
+.footer_div3 {
+  width: 30%;
+
+  height: 250px;
+}
+
+.icons {
+  width: 50%;
+
+  height: 100px;
+
+  margin-top: 20px;
+
+  display: flex;
+}
+
+.footer_icon {
+  width: 40px;
+
+  height: 40px;
+
+  padding: 5px 1% 0 2%;
+
+  font-size: 28px;
+
+  color: white;
+}
+
+/* einde footer */
+
+.voorwaarden {
+  width: 100%;
+
+  height: 40px;
+
+  color: white;
+
+  background-color: black;
+}
+
+.laatsetekst {
+  margin: 0px 0 0 10%;
 }
