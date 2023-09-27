@@ -20,10 +20,8 @@
   ?>
 
   <div id="container">
-
     <div id="grid-item1"></div>
     <div id="grid-item2">
-
       <div id="">
 
       </div>
